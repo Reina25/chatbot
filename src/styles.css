@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 16px;
+    font-family: Segoe UI;
+    line-height: 20px;
+    color: white;
+    display: table-cell;
+    padding: 13px 0px 0px 20px;
+}
+
+#heading {
+    background-color: grey;
+    height: 50px;
+}
+
+.main {
+    margin: 18px;
+    border-radius: 4px;
+}
+
+/* div[role="form"]{
+    background-color: grey;
+} */
+
+#webchat {
+    position: fixed;
+    height: calc(100% - 50px);
+    width: 100%;
+    top: 50px;
+    overflow: hidden;
+}
